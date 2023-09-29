@@ -22,6 +22,7 @@ and riders who can’t use a standard two-wheeled bike. The majority of riders o
 the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each
 day.
 
+
 ● Lily Moreno:
  The director of marketing and your manager. Moreno is responsible for the development of campaigns and
 initiatives to promote the bike-share program. These may include email, social media, and other channels.
@@ -71,29 +72,42 @@ The data consists of 5,723,606 entries.
 
 Data cleaning process was done using RStudio.
 
-1) Data was first merged from all of the 12 files for an ease of reference.
+1) Data was first merged from all of the 12 files for all the months for an ease of reference.
 
 
+2) Data was then cleaned to remove any entries with missing information for start and end time. However there were no missing entries.
 
-2) Data was then cleaned to remove any entries with missing information.
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/45611b6f-a847-4283-bb14-ebdaeb929c90)
 
-<h></h>
 
-3) Additional column for duration of rides was added.
+3) Additional column for duration of rides was added based on end time and start time of rides.
 
-4) There were no missing entries for start and end time of the rides.
+4) 
+
+   
+
+
 
 
 # Data visualizations and analysis
 
+The data visualization was produced using Power BI Desktop.
+
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/c42c70c0-ef28-47d9-a50f-df4c698d0477)
 
 1) Based on the visualisation, the average duration of the casual riders are higher which is  27.83 mins compared to members which are 12.38 min. The average duration spent for casual members is more than double the average duration of trips spent by the members.
 
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/f9c7af2d-e670-4d25-ac6b-7402087c2eb0)
 
 2) There is a spike in the rides for both casual and member riders during mid year compared to the rest of the year. Both July and August records the highest number of trips taken by both types of riders.
 Wherelese the least trips taken using Cyclistic are during the end or start of the year between Dec and February.
 
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/0c0fa47e-32e8-41f3-a200-58405848160f)
+
+
 3) Members have the highest usage for Cyclistic during peak hours such as 8 am and 5pm . Wherelse casual riders have a gradual slope from the start of the day reaching its highest peak only at 5pm. In addition, the number of members are nearly double that of the casual riders at both 8 am and 5pm.
+
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/58f6eea4-a8f8-43f4-a792-138b6ab42c3b)
 
 4) Overall, within the 12 month period, there is a higher count of members (62%) than of casual riders(38%).
 
