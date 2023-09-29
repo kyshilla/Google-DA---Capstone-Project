@@ -74,40 +74,51 @@ Data cleaning process was done using RStudio.
 
 1) Data was first merged from all of the 12 files for all the months for an ease of reference.
 
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/060ebe44-92df-4f83-9d1f-d8ddaded775e)
 
 2) Data was then cleaned to remove any entries with missing information for start and end time. However there were no missing entries.
 
 ![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/45611b6f-a847-4283-bb14-ebdaeb929c90)
 
-
 3) Additional column for duration of rides was added based on end time and start time of rides.
 
-4) 
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/d4871a9f-51dc-4645-a698-7cc675cf4888)
 
-   
+4)Data was then transformed in Power BI to include days of the week, hour of the day for the trip and duration of the rides in minutes.
 
-
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/038790e1-b4f5-48b0-b0ca-7d0ac73c49ad)
 
 
 # Data visualizations and analysis
 
 The data visualization was produced using Power BI Desktop.
 
-![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/c42c70c0-ef28-47d9-a50f-df4c698d0477)
-
 1) Based on the visualisation, the average duration of the casual riders are higher which is  27.83 mins compared to members which are 12.38 min. The average duration spent for casual members is more than double the average duration of trips spent by the members.
-
-![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/f9c7af2d-e670-4d25-ac6b-7402087c2eb0)
+   
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/c42c70c0-ef28-47d9-a50f-df4c698d0477)
 
 2) There is a spike in the rides for both casual and member riders during mid year compared to the rest of the year. Both July and August records the highest number of trips taken by both types of riders.
 Wherelese the least trips taken using Cyclistic are during the end or start of the year between Dec and February.
 
-![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/0c0fa47e-32e8-41f3-a200-58405848160f)
-
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/f9c7af2d-e670-4d25-ac6b-7402087c2eb0)
 
 3) Members have the highest usage for Cyclistic during peak hours such as 8 am and 5pm . Wherelse casual riders have a gradual slope from the start of the day reaching its highest peak only at 5pm. In addition, the number of members are nearly double that of the casual riders at both 8 am and 5pm.
-
-![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/58f6eea4-a8f8-43f4-a792-138b6ab42c3b)
+   
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/0c0fa47e-32e8-41f3-a200-58405848160f)
 
 4) Overall, within the 12 month period, there is a higher count of members (62%) than of casual riders(38%).
+ 
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/58f6eea4-a8f8-43f4-a792-138b6ab42c3b)
 
+5) Cyclistic is used more during the weekends for casual riders compared to members wherelse members tend to use Cyclistic more during weekdays compared to weekends.
+ 
+![image](https://github.com/kyshilla/Google-DA---Capstone-Project/assets/145910359/64ba1a71-054c-44d1-844f-b71c797163ad)
+
+# Conclusion
+How do the members and casual riders use Cyclistic differently?
+1) The casual riders tend to use Cyclistic for longer trips compared to members.  This could be because the members are usually using Cyclistic as a mode  of transportation to get to a nearby destination wherelse the casual riders could be using it for  means of leisure such as exercise. An incentive can be created to offer longer rides with member discounts to attract casual riders to become members of Cyclistic.
+   
+2) The members have a much higher usage of Cyclistic during peak working hours which are 8am and 5pm which could mean that most members are in the working class as they use Cyclistic to get to work and to get back home after work.An incentive can be created to allow members to enjoy discount after peak hours so that they are able to use Cyclistic for their leisure
+   time after work.
+   
+3) The usage of Cyclistic is higher during weekends for casual riders compared to members. Another effort can be taken to introduce weekend members subsriptions for these weekend casual riders. 
