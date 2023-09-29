@@ -1,8 +1,5 @@
-# Google-DA---Capstone-Project
-An analysis on the Google Data Analytics Professional Certificate Capstone Project - Cyclistic Project using R and Power BI
 
-
-# Google Data Analytics Capstone Project
+# Google Data Analytics Capstone Cyclistic Project
 
 An analysis on the Google Data Analytics Professional Certificate Capstone Project using R and Power BI. The project's case study can be found here: https://www.coursera.org/learn/google-data-analytics-capstone
 
